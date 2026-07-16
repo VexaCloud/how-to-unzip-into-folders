@@ -1,2 +1,5 @@
-Upload file and then run cd folder/folder
-unzip "FILE NAME"
+  - Upload ZIP file into the folder you want it in
+  - Run the command (contains placeholders) "cd folder/folder unzip "yourfile.zip" mv */* . rmdir */"
+  - Then delete the still zipped version of the file
+  - To get back to the workspace root, run the command (contains placeholders) "cd /workspaces cd your-repo-name"
+  - Then merge changes
