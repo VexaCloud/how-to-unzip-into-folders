@@ -2,7 +2,7 @@
   - Run the commands (contains placeholders)
     - "cd folder/folder"
     - "unzip yourfile.zip"
-    - "mv */* ."
+    - "mv */ * ."
     - "rmdir */"
   - *Must keep commands in separate lines. You can run them one at a time*
   - Then delete the still zipped version of the file
