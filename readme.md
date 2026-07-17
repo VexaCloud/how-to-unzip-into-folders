@@ -1,7 +1,10 @@
   - Upload ZIP file into the folder you want it in
-  - Run the command (contains placeholders) "cd folder/folder/folder unzip "file.zip""
-  - *Sometimes needs an enter between the end of the folder path and the unzip command*
+  - Run the command (contains placeholders) "cd folder/folder
+unzip "yourfile.zip"
+mv */* .
+rmdir */"
+  - *Must keep commands in separate lines. You can run them one at a time*
   - Then delete the still zipped version of the file
   - To get back to the workspace root, run the command (contains placeholders) "cd /workspaces cd your-repo-name"
-  - *May need an enter after the first cd command (before the second cd)*
+  - *You Must have an enter after the first cd command (before the second cd)*
   - Then merge changes
